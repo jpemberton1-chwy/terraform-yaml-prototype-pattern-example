@@ -6,11 +6,11 @@ For example, VS Code uses CSON (CoffeeScript Object Notation); other editors use
 
 Spring Boot has the option of using YAML or a proprietary configuration notation.
 
-Many game engines can work with JSON and oftentimes use these data sets to configure enemies, player classes and items! In fact, some great examples of how to use the prototype pattern come from the games industry [(*Game Programming Patterns*, Nystrom, R., 2014)](https://www.amazon.com/Game-Programming-Patterns-Robert-Nystrom/dp/0990582906/ref=sr_1_1?crid=X2W9WMKO8VC7&keywords=game+programming+patterns&qid=1654275256&sprefix=game+programming+patterns%2Caps%2C104&sr=8-1).
-
 One way to make the data more readable, compact and maintainable is to use a pattern called "the prototype" pattern.
 
 The "prototype" is a set of standard data that applies to all objects. Then, each object that inherits from the prototype overwrites any default values with its own value.
+
+Many game engines can work with JSON and oftentimes use these data sets to configure enemies, player classes and items! In fact, some great examples of how to use the prototype pattern come from the games industry [(*Game Programming Patterns*, Nystrom, R., 2014)](https://www.amazon.com/Game-Programming-Patterns-Robert-Nystrom/dp/0990582906/ref=sr_1_1?crid=X2W9WMKO8VC7&keywords=game+programming+patterns&qid=1654275256&sprefix=game+programming+patterns%2Caps%2C104&sr=8-1).
 
 Here's an example:
 
