@@ -54,7 +54,7 @@ magic_defense: 1
 
 ## Terraform Usage
 
-The easiest way to deeply merge a YAML files is to use the `cloudposse/utils` provider like so:
+The easiest way to deeply merge a YAML files is to use the `cloudposse/utils` provider's [**utils_deep_merge_yaml**](https://registry.terraform.io/providers/cloudposse/utils/latest/docs/data-sources/deep_merge_yaml) data source like so:
 
 ```tf
 terraform {
