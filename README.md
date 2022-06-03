@@ -6,7 +6,7 @@ For example, VS Code uses CSON (CoffeeScript Object Notation); other editors use
 
 Spring Boot has the option of using YAML or a proprietary configuration notation.
 
-One way to make configuration data more readable, compact and maintainable is to use a pattern called "the prototype" pattern.
+One way to make configuration data more readable, compact and maintainable is to use a pattern called the **Prototype Pattern**.
 
 The "prototype" is a set of standard data that applies to all objects. Then, each object that inherits from the prototype overwrites any default values with its own value.
 
